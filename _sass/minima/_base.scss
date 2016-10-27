@@ -9,7 +9,11 @@ dl, dd, ol, ul, figure {
 }
 
 
-
+div#wrap{
+  min-height: -webkit-calc(100% - 60px);     /* Chrome */
+  min-height: -moz-calc(100% - 60px);     /* Firefox */
+  min-height: calc(100% - 60px);
+}
 /**
  * Basic styling
  */
@@ -23,6 +27,7 @@ body {
        -o-font-feature-settings: "kern" 1;
           font-feature-settings: "kern" 1;
   font-kerning: normal;
+  height: 100%
 }
 
 

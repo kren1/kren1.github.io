@@ -26,6 +26,9 @@ $content-width:    800px;
 $on-palm:          600px;
 $on-laptop:        800px;
 
+html {
+  height: 100%
+}
 // Minima also includes a mixin for defining media queries.
 // Use media queries like this:
 // @include media-query($on-palm) {
