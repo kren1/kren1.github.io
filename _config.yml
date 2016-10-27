@@ -25,7 +25,7 @@ author: Timotej Kapus
 
 # Build settings
 markdown: kramdown
-theme: minima
+#theme: minima
 gems:
   - jekyll-feed
 exclude:
